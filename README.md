@@ -15,5 +15,10 @@ Please fork this repository and follow along **using your fork** as the instruct
 ## Notes for Class
 
 <!--
+async function greet() {
     
+    const value = someotherpromise()
+
+    return
+}
  -->
