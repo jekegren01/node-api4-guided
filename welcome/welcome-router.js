@@ -4,7 +4,8 @@ const router = express.Router()
 
 router.get("/", (req, res) => {
 	res.status(200).json({
-		message: "Welcome",
+		message: `Welcome ${process.env.COHORT} ${process.env.FUN_FACT}`,
+		fact: process.env.FUN_FACT || "I have no fun facts",
 	})
 })
 
